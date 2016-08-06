@@ -145,7 +145,7 @@ header .header-minus p > b {
 	display: flex;
 	text-align: center;
 	margin-top: 1rem;
-	margin-bottom: .2rem;
+	margin-bottom: 1.2rem;
 }
 
 .menu {
@@ -252,7 +252,7 @@ header .header-minus p > b {
 .hvr-shutter-out-horizontal-green:focus,
 .hvr-shutter-out-horizontal-green:active {
 	color: white;
-	text-shadow: 7px 8px 15px rgba(0,0,0, .2);
+	/*text-shadow: 7px 8px 15px rgba(0,0,0, .2);*/
 }
 .hvr-shutter-out-horizontal-green:hover:before,
 .hvr-shutter-out-horizontal-green:focus:before,
@@ -375,7 +375,7 @@ header .header-minus p > b {
 .hvr-shutter-out-horizontal-blue:focus,
 .hvr-shutter-out-horizontal-blue:active {
 	color: white;
-	text-shadow: 7px 8px 15px rgba(0,0,0, .2);
+	/*text-shadow: 7px 8px 15px rgba(0,0,0, .2);*/
 }
 .hvr-shutter-out-horizontal-blue:hover:before,
 .hvr-shutter-out-horizontal-blue:focus:before,
@@ -438,7 +438,7 @@ header .header-minus p > b {
 .hvr-shutter-out-horizontal-pink:focus,
 .hvr-shutter-out-horizontal-pink:active {
 	color: white;
-	text-shadow: 7px 8px 15px rgba(0,0,0, .2);
+	/*text-shadow: 7px 8px 15px rgba(0,0,0, .2);*/
 }
 .hvr-shutter-out-horizontal-pink:hover:before,
 .hvr-shutter-out-horizontal-pink:focus:before,
