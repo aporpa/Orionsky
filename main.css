@@ -150,7 +150,7 @@ header .header-minus p > b {
 	display: flex;
 	text-align: center;
 	margin-top: 1rem;
-	margin-bottom: 1.2rem;
+	margin-bottom: .2rem;
 }
 
 .menu {
@@ -189,7 +189,7 @@ header .header-minus p > b {
 
 
 .photo { flex: 1 1 150px; }
-.new { flex: 1 2 150px; min-height: 140px; }
+.new { flex: 1 2 150px; min-height: 170px; }
 .address { flex: 1 2 150px; }
 .job { flex: 1 1 150px; }
 
