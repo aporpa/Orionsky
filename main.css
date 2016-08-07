@@ -11,8 +11,6 @@ body {
 }
 
 p {
-    font-size: 2rem;
-    font-weight: bold;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
     -ms-font-feature-settings: "kern" 1;
@@ -205,6 +203,7 @@ header .header-minus p > b {
     transform: translate(-50%, -50%);
     z-index: 1;
     font-size: 3.9rem;
+    font-weight: bold;
     line-height: 3.9rem;
     text-shadow: 7px 8px 16px rgb(0, 0, 0);
     color: white;
@@ -226,6 +225,9 @@ header .header-minus p > b {
     flex-flow: row wrap;
     max-width: 1024px;
     margin: auto;
+
+    font-size: 2rem;
+    font-weight: bold;
     text-align: center;
     color: rgb(102, 102, 102);
     letter-spacing: 0.05rem;
@@ -261,6 +263,25 @@ p.center-text {
 .job {
     flex: 1 1 150px;
 }
+
+
+
+
+.footer {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    max-width: 1024px;
+    margin: auto;
+    justify-content: space-between;
+    color: rgb(102,102,102);
+    font-weight: lighter;
+    font-size: .9rem;
+}
+
+
 
 
 /*.full-width {
@@ -534,4 +555,26 @@ p.center-text {
 .hvr-shutter-out-horizontal-pink:active:before {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
+}
+
+
+
+
+
+.the-actual-menu {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    max-width: 1024px;
+}
+
+.the-actual-menu > div {
+    height: 150px;
+    width: 24%;
+    margin: 5px;
+    background: rgb(240,240,240);
 }
