@@ -102,14 +102,31 @@ header .header {
 }
 
 .header p:last-child {
-	margin-left: auto;
-	margin-right: 0;
-	padding-right: 0;
+    margin-left: auto;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.header p>span.number {
+    transition: background .2s;
+	-webkit-transition:: background .2s;
+	text-decoration: none;
+    color: #000;
+    box-shadow: inset 0 -5px 0 #c0e6f7;
+	margin-left: 3px;
+}
+
+.header p>span.number:hover {
+	background: #c0e6f7;
 }
 
 .header p:hover {
     cursor: pointer;
     font-weight: bold;
+}
+
+.header p:last-child:hover {
+	font-weight: normal;
 }
 
 .header form {
@@ -144,10 +161,10 @@ header .header-minus p:hover {
 }
 
 .header-minus p.address-bar {
-	margin-right: auto;
-	font-size: 1rem;
-	position: relative;
-	top: .2px;
+    margin-right: auto;
+    font-size: 1rem;
+    position: relative;
+    top: .2px;
 }
 
 header .header-minus h1 {
