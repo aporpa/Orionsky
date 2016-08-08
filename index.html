@@ -3,13 +3,17 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Кофейня Орион: Закажите онлайн, Новинки, Адрес, Контактная информация</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Кофейня Орион: Закажите онлайн, Новинки, Адрес, Контактная информация</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<link rel="stylesheet" href="main.css">
 </head>
 
 <body>
+
 	<header>
 		<div class="header-minus">
 			<form>
@@ -35,12 +39,21 @@
 	<hr>
 	<div class="menu-flex">
 		<div class="menu hvr-shutter-out-horizontal-blue">
-			<p>МЕНЮ
+			<!-- <p>МЕНЮ
 				<br>
 				<span>Ваши любимые блюда</span>
 			</p>
-			<!-- <canvas id="canv" width="32" height="32"> -->
-			<img src="food.png" alt="">
+			<canvas id="canv" width="32" height="32">
+			<img src="food.png" alt=""> -->
+			<div class="single-item">
+			    <div><img src="food.png" alt=""></div>
+			    <div><img src="food.png" alt=""></div>
+			    <div><img src="food.png" alt=""></div>
+			    <div><img src="food.png" alt=""></div>
+			    <div><img src="food.png" alt=""></div>
+			    <div><img src="food.png" alt=""></div>
+			</div>
+			
 		</div>
 	</div>
 	<div class="content">
@@ -76,7 +89,8 @@
 		<div class="footer-2">
 		    <p><b>Наша команда</b></p>
 		    <p>Персонал</p>
-		    <p>Философия</p>
+		    <p>Вакансии</p>
+		    <p>Подход</p>
 		    <p>История</p>
 		</div>
 		<div class="footer-3">
@@ -94,8 +108,13 @@
 		    <p>Incidunt.</p>
 		</div>
 	</div>
+<br><hr><br>
+<p>Орион, 2006-2016</p>
 
-	<script src="app.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="slick/slick.js"></script>
 </body>
 
 </html>

@@ -1,3 +1,18 @@
+$(document).ready(function(){
+  $('.single-item').slick({
+    dots: true,
+    infinite: true,
+    variableWidth: true,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    centerMode: true,
+    cssEase: 'ease',
+    mobileFirst: true,
+    arrows: false
+  });
+});
+
+
 var c = document.getElementById('canv');
 var $ = c.getContext('2d');
 

@@ -4,6 +4,10 @@ img {
     max-width: 100%;
 }
 
+single-item {
+    width: 100%;
+}
+
 body {
     font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
     /*color: rgb(160,143,86);*/
@@ -188,8 +192,8 @@ header .header-minus p > b {
 }
 
 .menu {
-    max-height: 500px;
-    flex: 1 1 100%;
+    /*max-height: 500px;*/
+    margin: auto;
 }
 
 .menu img {
@@ -569,12 +573,18 @@ p.center-text {
     display: flex;
     flex-flow: row wrap;
     margin: auto;
-    max-width: 1024px;
+    max-width: 100%;
 }
 
 .the-actual-menu > div {
-    height: 150px;
-    width: 24%;
+    height: 200px;
+    width: 30%;
     margin: 5px;
     background: rgb(240,240,240);
+    flex: 1 1 300px;
+}
+
+.the-actual-menu > div:nth-child(5n) {
+    flex: 4 1 400px;
+    width: 40%;
 }
