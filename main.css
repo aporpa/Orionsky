@@ -281,6 +281,14 @@ p.center-text {
     cursor: pointer;
 }
 
+.credit {
+    text-align: center;
+}
+
+.credit p {
+    font-size: .8rem;
+    color: rgb(153,153,153);
+}
 
 
 
