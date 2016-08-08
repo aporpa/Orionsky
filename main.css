@@ -449,7 +449,7 @@ p.center-text {
     -moz-osx-font-smoothing: grayscale;
     position: relative;
     /*background: rgb(240,240,240);*/
-    background: rgb(242, 242, 242);
+    /*background: rgb(242, 242, 242);*/
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.23s;
@@ -577,14 +577,33 @@ p.center-text {
 }
 
 .the-actual-menu > div {
-    height: 200px;
-    width: 30%;
+    max-height: 340px;
+    min-width: 25%;
     margin: 5px;
-    background: rgb(240,240,240);
+    /*background: rgb(240,240,240);*/
     flex: 1 1 300px;
 }
 
 .the-actual-menu > div:nth-child(5n) {
     flex: 4 1 400px;
-    width: 40%;
+    width: 40%; 
+}
+
+.the-actual-menu > div:nth-child(3n) {
+    background: rgb(173, 217, 237);
+}
+
+.the-actual-menu > div {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.the-actual-menu p {
+    font-size: 1.4rem;
 }
